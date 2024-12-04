@@ -1,0 +1,134 @@
+{
+    "os": "Linux-5.15.0-119-generic-x86_64-with-glibc2.31",
+    "python": "3.9.17",
+    "heartbeatAt": "2024-12-04T10:11:19.985633",
+    "startedAt": "2024-12-04T10:11:19.351771",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "400",
+        "1",
+        "meta-llama/Meta-Llama-3.1-8B-Instruct",
+        "4",
+        "SMILES",
+        "y_bin",
+        "train_polymers.csv",
+        "50"
+    ],
+    "state": "running",
+    "program": "/home/joren/gptchallengeV2/PredLLMs/experiments/test/run_experiment.py",
+    "codePath": "experiments/test/run_experiment.py",
+    "git": {
+        "remote": "https://github.com/JorenBE/PredLLMs.git",
+        "commit": "8b965abf94e1c4c4ff3c6b247241bfcb853d3fa8"
+    },
+    "email": "joren.vanherck@epfl.ch",
+    "root": "/home/joren/gptchallengeV2/PredLLMs",
+    "host": "lsmob219740",
+    "username": "joren",
+    "executable": "/home/joren/miniconda3/envs/chemlift/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2.416875,
+        "min": 800.0,
+        "max": 5050.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2.5,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 2.5,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 1.17,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 2.5,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 2.5,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 2.5,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 2.5,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 2.5,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 2.5,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 2.5,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 2.5,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 2.5,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 2.5,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 2.5,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 2.5,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 2.5,
+            "min": 800.0,
+            "max": 5000.0
+        }
+    ],
+    "disk": {
+        "total": 467.8895797729492,
+        "used": 431.4923515319824
+    },
+    "gpu": "NVIDIA GeForce RTX 3080",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3080",
+            "memory_total": 10737418240
+        }
+    ],
+    "memory": {
+        "total": 31.169113159179688
+    }
+}

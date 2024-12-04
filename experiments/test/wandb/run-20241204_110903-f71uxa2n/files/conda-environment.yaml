@@ -50,7 +50,6 @@ dependencies:
   - gmpy2=2.1.2=py39heeb90bb_0
   - gnutls=3.6.15=he1e5248_0
   - grpc-cpp=1.48.2=he1ff14a_1
-  - huggingface_hub=0.15.1=py39h06a4308_0
   - icu=58.2=he6710b0_3
   - idna=3.4=py39h06a4308_0
   - importlib-metadata=6.0.0=py39h06a4308_0
@@ -130,7 +129,6 @@ dependencies:
   - python=3.9.17=h955ad1f_0
   - python-dateutil=2.8.2=pyhd3eb1b0_0
   - python-tzdata=2023.3=pyhd8ed1ab_0
-  - python-xxhash=2.0.2=py39h5eee18b_1
   - python_abi=3.9=2_cp39
   - pytorch=2.0.1=py3.9_cuda11.7_cudnn8.5.0_0
   - pytorch-cuda=11.7=h778d358_5
@@ -175,16 +173,23 @@ dependencies:
       - appdirs==1.4.4
       - art==6.0
       - bitsandbytes==0.40.1.post1
+      - contourpy==1.3.0
+      - cycler==0.12.1
       - docker-pycreds==0.4.0
       - fastcore==1.5.29
       - fire==0.5.0
+      - fonttools==4.55.1
       - frozenlist==1.4.0
       - gitdb==4.0.10
       - gitpython==3.1.32
       - gptchem==0.0.1
+      - gptchem-llama==0.0.1.dev0
       - huggingface-hub==0.16.4
+      - importlib-resources==6.4.5
       - joblib==1.3.1
+      - kiwisolver==1.4.7
       - loguru==0.7.0
+      - matplotlib==3.9.3
       - more-itertools==9.1.0
       - numpy==1.25.1
       - openai==0.27.8
@@ -192,6 +197,7 @@ dependencies:
       - protobuf==4.23.4
       - pyarrow==12.0.1
       - pycm==4.0
+      - pyparsing==3.2.0
       - pyrate-limiter==2.10.0
       - pystow==0.5.0
       - rdkit==2023.3.2
@@ -204,4 +210,4 @@ dependencies:
       - threadpoolctl==3.1.0
       - wandb==0.15.5
       - xxhash==3.2.0
-prefix: /home/lo45pic/miniconda3/envs/chemlift
+prefix: /home/joren/miniconda3/envs/chemlift
