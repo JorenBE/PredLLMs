@@ -41,6 +41,8 @@ LORA_TARGET_MODULES_MAPPING = {
     "deepset/roberta-base-squad2": ["query", "value"],
     "t5-base": ["q", "v"], # encoder - decoder
     "tiiuae/falcon-7b": ["query_key_value"],
+    "meta-llama/Llama-3.2-1B": ["q_proj", "v_proj"],
+    "meta-llama/Meta-Llama-3.1-8B": ["q_proj", "v_proj"]
 }
 
 PADDING_SIDE_MAPPING = {
@@ -68,7 +70,9 @@ PADDING_SIDE_MAPPING = {
     "opt": "left", 
     "tiiuae/falcon-7b": "left",
     "meta-llama/Meta-Llama-3.1-8B-Instruct": "left",
-    "mistralai/Mistral-7B-Instruct-v0.3": "left"
+    "mistralai/Mistral-7B-Instruct-v0.3": "left",
+    "meta-llama/Llama-3.2-1B": "left",
+    "meta-llama/Meta-Llama-3.1-8B": "left"
 }
 
 
